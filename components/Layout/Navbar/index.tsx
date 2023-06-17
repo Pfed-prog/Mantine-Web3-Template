@@ -111,7 +111,7 @@ export function Navbar({ links }: NavbarProps) {
   return (
     <Header height={HEADER_HEIGHT} mb={10} className={classes.root}>
       <Container className={classes.header}>
-        <Link href="/">
+        <Link href="/" passHref>
           <Image
             src="/SolidityLogo.svg"
             alt="Pin Save EVM"
