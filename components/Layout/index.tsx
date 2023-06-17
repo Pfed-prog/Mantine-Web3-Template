@@ -1,0 +1,13 @@
+import { AppShell } from '@mantine/core';
+import React from 'react';
+import { Navbar } from './Navbar';
+
+interface LayoutProps {
+  children: JSX.Element;
+}
+const LayoutApp = ({ children }: LayoutProps) => {
+  const links = [{ label: 'Home', link: '/' }];
+  return <AppShell header={<Navbar links={links} />}>{children}</AppShell>;
+};
+
+export default LayoutApp;
