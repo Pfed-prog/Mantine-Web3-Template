@@ -1,3 +1,4 @@
+import '../styles/styles.css';
 import '@rainbow-me/rainbowkit/styles.css';
 
 import { useState } from 'react';
@@ -46,18 +47,18 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <link rel="shortcut icon" href="/favicon.svg" />
       </Head>
-      <WagmiConfig config={wagmiConfig}>
-        <RainbowKitProvider chains={chains}>
-          <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
-            <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
+      <MantineProvider theme={{ colorScheme }}>
+        <WagmiConfig config={wagmiConfig}>
+          <RainbowKitProvider chains={chains}>
+            <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
               <LayoutApp>
                 <Component {...pageProps} />
               </LayoutApp>
               <Notifications />
-            </MantineProvider>
-          </ColorSchemeProvider>
-        </RainbowKitProvider>
-      </WagmiConfig>
+            </ColorSchemeProvider>
+          </RainbowKitProvider>
+        </WagmiConfig>
+      </MantineProvider>
     </>
   );
 }

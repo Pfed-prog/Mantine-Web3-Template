@@ -96,7 +96,7 @@ export function Navbar({ links }: NavbarProps) {
   const [opened, toggle] = useToggle([false, true]);
   const { classes, cx } = useStyles();
   const router = useRouter();
-  const items = links.map((link) => (
+  const items = links?.map((link) => (
     <Link key={link.label} href={link.link} passHref>
       <Text
         className={cx(classes.link, {
