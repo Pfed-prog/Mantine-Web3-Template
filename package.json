@@ -65,7 +65,7 @@
     "eslint-plugin-testing-library": "^5.2.0",
     "jest": "^27.5.1",
     "prettier": "^2.7.1",
-    "storybook-addon-turbo-build": "^1.1.0",
+    "storybook-addon-turbo-build": "^2.0.1",
     "storybook-dark-mode": "^1.1.2",
     "ts-jest": "^27.1.4",
     "typescript": "4.8.4"
