@@ -1,4 +1,4 @@
-import '../styles/styles.css';
+import '@/styles/styles.css';
 import '@rainbow-me/rainbowkit/styles.css';
 
 import { useState } from 'react';
@@ -12,7 +12,7 @@ import { configureChains, createConfig, WagmiConfig } from 'wagmi';
 import { mainnet, polygon, optimism, arbitrum } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 
-import LayoutApp from '../components/Layout';
+import LayoutApp from '@/components/Layout';
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const { Component, pageProps } = props;
