@@ -5,6 +5,7 @@ import { Navbar } from './Navbar';
 interface LayoutProps {
   children: JSX.Element;
 }
+
 const LayoutApp = ({ children }: LayoutProps) => {
   const links = [{ label: 'Home', link: '/' }];
   return (
