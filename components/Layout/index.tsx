@@ -7,7 +7,20 @@ interface LayoutProps {
 }
 const LayoutApp = ({ children }: LayoutProps) => {
   const links = [{ label: 'Home', link: '/' }];
-  return <AppShell header={<Navbar links={links} />}>{children}</AppShell>;
+  return (
+    <AppShell
+      header={<Navbar links={links} />}
+      styles={{
+        main: {
+          paddingTop: 0,
+          paddingRight: 0,
+          paddingLeft: 0,
+        },
+      }}
+    >
+      {children}
+    </AppShell>
+  );
 };
 
 export default LayoutApp;
