@@ -1124,13 +1124,13 @@
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-6.0.2.tgz#88433aade23237c1566a083b80e6620eaa932561"
   integrity sha512-wLSkp0NRe4XN7JujIUvkKghIBJC9YZ33CJlrFbcBFLD6LiSLX7lWyWOsiFzXrPND0Hpgn3AjckFQGblA8n34XA==
 
-"@mantine/next@6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-6.0.2.tgz#bedce85a4fdd14bdec8d8b82b63a1b2b1506220e"
-  integrity sha512-yQrsqu19r9aLU8/q0hhsUjuTV8MRf3vTQz2Lv6Fvm+dGIef+ZvMVaTrRodvX/qepF5YWAmyRUg5jgwENsyDSXQ==
+"@mantine/next@6.0.15":
+  version "6.0.15"
+  resolved "https://registry.yarnpkg.com/@mantine/next/-/next-6.0.15.tgz#35e50ebed6b0be6f95e1f727493f2280367b097c"
+  integrity sha512-NyUAtQXSYy9ilbktAP/fWacc4UYiuZOH4F0b+AhCYNiP4IWALgmfc6mfz8baFi9NQ+9uha1hrWKOTntugcl6Wg==
   dependencies:
-    "@mantine/ssr" "6.0.2"
-    "@mantine/styles" "6.0.2"
+    "@mantine/ssr" "6.0.15"
+    "@mantine/styles" "6.0.15"
 
 "@mantine/notifications@6.0.2":
   version "6.0.2"
@@ -1148,13 +1148,21 @@
     "@mantine/utils" "6.0.2"
     prism-react-renderer "^1.2.1"
 
-"@mantine/ssr@6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-6.0.2.tgz#69d92b09dea7e7ab3458e17b3536ec61b8e41c33"
-  integrity sha512-s7F0LtKVdGflbV/2ofCUcdoEQlCpnspBIOPW2IORk7Ysab/XE/Ea2nphtfStNZcYZXk9haOVp50Yi8yAxzBOVg==
+"@mantine/ssr@6.0.15":
+  version "6.0.15"
+  resolved "https://registry.yarnpkg.com/@mantine/ssr/-/ssr-6.0.15.tgz#a0bdf166d8415fa5e1bb8f71adbff6ad1ffc7935"
+  integrity sha512-ULdXkkUzbfQav5oKxoTN6fqgSVQLawKulHHLBnoYz07YCSVxDM75dDw/HdE/Xw+HI9eTvE5Pd2XzM1pli5lYnw==
   dependencies:
-    "@mantine/styles" "6.0.2"
+    "@mantine/styles" "6.0.15"
     html-react-parser "1.4.12"
+
+"@mantine/styles@6.0.15":
+  version "6.0.15"
+  resolved "https://registry.yarnpkg.com/@mantine/styles/-/styles-6.0.15.tgz#474721fb5acab6f7ac9aed2d52b77e9571708ce5"
+  integrity sha512-lOcEshBVbaN55gqsaiRPDY3///gfE+0o13ePp5PbCIA1sTKCvHz9aojHxXIICQV0ua9CXyleHzn5G0Ypw21/NQ==
+  dependencies:
+    clsx "1.1.1"
+    csstype "3.0.9"
 
 "@mantine/styles@6.0.2":
   version "6.0.2"
