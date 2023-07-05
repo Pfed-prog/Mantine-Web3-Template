@@ -16,6 +16,8 @@ const LayoutApp = ({ children }: LayoutProps) => {
           paddingTop: 0,
           paddingRight: 0,
           paddingLeft: 0,
+          paddingBottom: 0,
+          minHeight: 0,
         },
       }}
     >
