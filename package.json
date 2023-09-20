@@ -25,7 +25,7 @@
     "@mantine/next": "6.0.19",
     "@mantine/notifications": "6.0.2",
     "@mantine/prism": "6.0.2",
-    "@next/bundle-analyzer": "^13.4.10",
+    "@next/bundle-analyzer": "^13.5.1",
     "@rainbow-me/rainbowkit": "^1.0.8",
     "@tabler/icons-react": "^2.32.0",
     "@tanstack/react-query": "^4.29.19",
