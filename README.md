@@ -9,7 +9,6 @@ create new repository with `@mantine` packages. Note that you have to be logged 
 This template comes with several essential features:
 
 - Server side rendering setup for Mantine
-- Jest with react testing library
 - ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
 
 ## npm scripts
@@ -26,8 +25,6 @@ This template comes with several essential features:
 - `typecheck` – checks TypeScript types
 - `lint` – runs ESLint
 - `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
 - `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
 
 ### Other scripts
