@@ -54,7 +54,7 @@ export default function App({ Component, ColorScheme, pageProps }: AppProps) {
       <QueryClientProvider client={queryClient}>
         <WagmiConfig config={wagmiConfig}>
           <Head>
-            <title>Mantine next example</title>
+            <title>Mantine NextJS RainbowKit example</title>
           </Head>
           <RainbowKitProvider chains={chains}>
             <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
