@@ -1,6 +1,11 @@
-# Mantine Next Template
+# Mantine Web3 Template
 
-Get started with Mantine + RainbowKit + Next with just a few button clicks.
+🌟 Kickstart Your Web3 Development Journey! 🌟
+
+Are you ready to dive into the world of Web3 development? Look no further! Check out the Mantine-Web3-Template, a powerful and streamlined setup designed to help you build modern, interactive applications using Mantine, RainbowKit, and Next.js.
+
+## How to start
+
 Click `Use this template` button at the header of repository and
 create new repository with `@mantine` packages. Note that you have to be logged in to GitHub to generate template.
 
@@ -9,7 +14,9 @@ create new repository with `@mantine` packages. Note that you have to be logged 
 This template comes with several essential features:
 
 - Server side rendering setup for Mantine
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+- ESLint and TypeScript configurations for cleaner code
+
+Whether you're a seasoned developer or just starting your journey, this template will help you create incredible applications that leverage blockchain technology with ease.
 
 ## npm scripts
 
