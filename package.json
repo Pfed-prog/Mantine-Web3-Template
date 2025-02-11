@@ -34,13 +34,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.26.8",
-    "@next/eslint-plugin-next": "^15.1.7",
     "@types/node": "^20.12.7",
     "@types/react": "18.3.13",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.57.0",
-    "eslint-config-mantine": "^3.0.0",
     "prettier": "^3.3.3",
     "typescript": "5.7.3"
   }
