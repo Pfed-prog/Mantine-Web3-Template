@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.28.5",
-    "@types/node": "^22.13.13",
+    "@types/node": "^25.0.9",
     "@types/react": "18.3.13",
     "eslint": "9.38.0",
     "prettier": "^3.5.3",
